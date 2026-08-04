@@ -264,7 +264,11 @@ font-size:16px;
     transform:translateY(0);
 }
 .logo img{
-    height:55px;
+    height:45px;
     width:auto;
     display:block;
+}
+.logo {
+    display: flex;
+    align-items: center;
 }

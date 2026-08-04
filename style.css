@@ -834,3 +834,47 @@ footer h3{
     color:#0A66C2;
     font-weight:600;
 }
+/* ===========================
+   FAQ
+=========================== */
+
+.faq{
+    background:#08111f;
+    color:white;
+}
+
+.faq h2{
+    color:white;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.faq-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.faq-item{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.faq-item:hover{
+    border-color:#38bdf8;
+    transform:translateY(-3px);
+}
+
+.faq-item h3{
+    color:#38bdf8;
+    margin-bottom:12px;
+    font-size:22px;
+}
+
+.faq-item p{
+    color:#cbd5e1;
+    line-height:1.7;
+}

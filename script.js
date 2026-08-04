@@ -134,3 +134,19 @@ window.addEventListener("scroll", revealOnScroll);
 
 // Run once on page load
 revealOnScroll();
+
+/* ===========================
+   PRELOADER
+=========================== */
+
+window.addEventListener("load", function () {
+
+    const preloader = document.getElementById("preloader");
+
+    setTimeout(() => {
+
+        preloader.classList.add("hide");
+
+    }, 1200);
+
+});

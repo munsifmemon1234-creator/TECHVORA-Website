@@ -150,3 +150,25 @@ window.addEventListener("load", function () {
     }, 1200);
 
 });
+
+/* ===========================
+   Contact Form Success Message
+=========================== */
+
+const contactForm = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
+
+contactForm.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    formMessage.textContent = "✅ Your message has been sent successfully!";
+    formMessage.style.color = "#16a34a";
+
+    contactForm.reset();
+
+    setTimeout(function(){
+        formMessage.textContent = "";
+    },5000);
+
+});

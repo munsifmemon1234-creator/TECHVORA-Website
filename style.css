@@ -744,3 +744,43 @@ footer h3{
     color:#64748b;
     margin-bottom:25px;
 }
+/* ===========================
+   Technologies
+=========================== */
+
+.technologies{
+    background:#08111f;
+    text-align:center;
+    color:white;
+}
+
+.technologies h2{
+    color:white;
+}
+
+.tech-text{
+    max-width:700px;
+    margin:0 auto 50px;
+    color:#cbd5e1;
+}
+
+.tech-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.tech-card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    padding:30px;
+    border-radius:18px;
+    font-size:22px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.tech-card:hover{
+    transform:translateY(-10px);
+    background:#0A66C2;
+}

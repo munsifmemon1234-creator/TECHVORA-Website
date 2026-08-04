@@ -689,3 +689,58 @@ footer h3{
     color:#cbd5e1;
     font-size:18px;
 }
+/* ===========================
+   Portfolio
+=========================== */
+
+.portfolio{
+    background:#f8fafc;
+    text-align:center;
+}
+
+.portfolio-text{
+    max-width:700px;
+    margin:0 auto 50px;
+    color:#64748b;
+}
+
+.portfolio-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(10,102,194,.15);
+}
+
+.project-image{
+    height:180px;
+    background:linear-gradient(135deg,#0A66C2,#38bdf8);
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:70px;
+    margin-bottom:25px;
+    color:white;
+}
+
+.project-card h3{
+    color:#0A66C2;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#64748b;
+    margin-bottom:25px;
+}

@@ -35,7 +35,7 @@ header{
 }
 
 .logo img{
-    width:140px;
+    width:45px;
 }
 
 .nav-links{
@@ -141,4 +141,28 @@ header{
 
 .btn-outline:hover{
     background:#2d8cff;
+}
+@media (max-width:768px){
+
+.nav-links{
+    display:none;
+}
+
+.menu-btn{
+    display:block;
+    color:white;
+}
+
+.hero h1{
+    font-size:52px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.logo img{
+    width:85px;
+}
+
 }

@@ -645,3 +645,47 @@ footer h3{
     transform:translateY(-5px);
     background:#38bdf8;
 }
+/* ===========================
+   Statistics
+=========================== */
+
+.stats{
+    background:#08111f;
+    color:white;
+    text-align:center;
+}
+
+.stats h2{
+    color:white;
+    margin-bottom:50px;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.stat-card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:35px;
+    transition:.35s;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    border-color:#38bdf8;
+}
+
+.stat-card h3{
+    font-size:52px;
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.stat-card p{
+    color:#cbd5e1;
+    font-size:18px;
+}

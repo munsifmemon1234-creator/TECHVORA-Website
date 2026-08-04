@@ -352,26 +352,6 @@ button:hover{
     background:var(--secondary);
 }
 
-/* ===========================
-   Footer
-=========================== */
-
-footer{
-    background:var(--dark);
-    color:white;
-    text-align:center;
-    padding:45px 20px;
-}
-
-footer h3{
-    font-size:30px;
-    margin-bottom:10px;
-}
-
-footer p{
-    color:#cbd5e1;
-    margin:8px 0;
-}
 
 /* ===========================
    Responsive
@@ -440,6 +420,14 @@ section h2{
 .features{
     grid-template-columns:1fr;
 }
+
+.footer-container{
+    text-align:center;
+}
+
+.footer-box a:hover{
+    transform:none;
+}   
 }
 /* =====================================
    TECHVORA WEBSITE
@@ -878,3 +866,68 @@ footer h3{
     color:#cbd5e1;
     line-height:1.7;
 }
+/* =========================
+   PREMIUM FOOTER
+========================= */
+
+footer{
+    background:#0b1220;
+    color:#fff;
+    padding:70px 10% 25px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:40px;
+    margin-bottom:40px;
+}
+
+.footer-box h3{
+    color:#fff;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.footer-box p{
+    color:#cbd5e1;
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.footer-box a{
+    display:block;
+    color:#cbd5e1;
+    text-decoration:none;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.footer-box a:hover{
+    color:#0A66C2;
+    transform:translateX(6px);
+}
+
+footer hr{
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,.1);
+    margin:30px 0;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p:first-child{
+    color:#0A66C2;
+    font-weight:600;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.footer-bottom p:last-child{
+    color:#94a3b8;
+    font-size:15px;
+}
+

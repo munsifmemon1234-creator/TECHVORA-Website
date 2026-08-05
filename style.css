@@ -51,10 +51,10 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background: #f8fafc; /* Light background */
-    z-index: 1000;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.12);
-    border-bottom: 1px solid #dbeafe;
+    background: rgba(15,23,42,.92);
+    backdrop-filter: blur(15px);
+    z-index: 999;
+    border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
 .navbar{
@@ -80,7 +80,7 @@ header{
 }
 
 .nav-links a{
-    color:#0f172a;
+    color:#ffffff;
     text-decoration:none;
     font-weight:600;
     transition:.3s;
@@ -92,7 +92,7 @@ header{
 
 .menu-btn{
     display:none;
-    color:#0f172a;
+    color:#ffffff;
     font-size:30px;
     cursor:pointer;
 }

@@ -981,7 +981,7 @@ footer hr{
 }
 
 .loader-logo{
-    width:260px;
+    width:320px;
     margin-bottom:20px;
     filter: invert(1) brightness(1.2)
             drop-shadow(0 0 12px rgba(56,189,248,.6));

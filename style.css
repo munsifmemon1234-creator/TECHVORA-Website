@@ -981,8 +981,10 @@ footer hr{
 }
 
 .loader-logo{
-    width:120px;
+    width:160px;
     margin-bottom:20px;
+    filter: brightness(2.5) contrast(1.2)
+    drop-shadow(0 0 12px rgba(56,189,248,.6));
 }
 
 .loader-content h2{

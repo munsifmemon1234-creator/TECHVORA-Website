@@ -395,6 +395,7 @@ button:hover{
     display:flex;
     align-items:center;
     margin-left:0;
+    transform: translateY(-6px);
 }
 
 .menu-btn{

@@ -97,6 +97,10 @@ header{
     cursor:pointer;
 }
 
+.nav-links{
+    background:#f8fafc;
+}
+
 /* Hero */
 
 .hero{

@@ -986,6 +986,17 @@ footer hr{
     font-size:15px;
 }
 
+.footer-bottom a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.footer-bottom a:hover{
+    color:#60a5fa;
+    text-decoration:underline;
+}
+
 /* ===========================
    PRELOADER
 =========================== */

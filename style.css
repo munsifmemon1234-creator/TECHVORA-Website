@@ -391,6 +391,12 @@ button:hover{
     height:220px;
 }
 
+.logo{
+    display:flex;
+    align-items:center;
+    margin-left:0;
+}
+
 .menu-btn{
     display:block;
 }

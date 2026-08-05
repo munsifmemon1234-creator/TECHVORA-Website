@@ -58,7 +58,7 @@ header{
 }
 
 .navbar{
-    width:80%;
+    width:60%;
     max-width:1200px;
     margin:auto;
     display:flex;
@@ -68,7 +68,7 @@ header{
 }
 
 .logo img{
-    height:20px;
+    height:70px;
     width:auto;
     display:block;
 }

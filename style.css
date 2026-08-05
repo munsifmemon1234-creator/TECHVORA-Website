@@ -388,14 +388,14 @@ button:hover{
 }
    
 .logo img{
-    height:220px;
+    height:250px;
 }
 
 .logo{
     display:flex;
     align-items:center;
     margin-left:0;
-    transform: translateY(-8px);
+    transform: translateY(-10px);
 }
 
 .menu-btn{

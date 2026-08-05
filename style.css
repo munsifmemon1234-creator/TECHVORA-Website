@@ -51,12 +51,10 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(24, 35, 58, 0.95);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    background: #f8fafc; /* Light background */
     z-index: 1000;
-    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.12);
+    border-bottom: 1px solid #dbeafe;
 }
 
 .navbar{
@@ -82,14 +80,14 @@ header{
 }
 
 .nav-links a{
-    color:#fff;
+    color:#0f172a;
     text-decoration:none;
-    font-weight:500;
+    font-weight:600;
     transition:.3s;
 }
 
 .nav-links a:hover{
-    color:var(--secondary);
+    color:#0A66C2;
 }
 
 .menu-btn{

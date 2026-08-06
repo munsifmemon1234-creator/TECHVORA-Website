@@ -262,6 +262,73 @@ section h2{
     color:#64748b;
 }
 
+/* ==========================
+        TEAM
+========================== */
+
+.team{
+    padding:100px 10%;
+    background:#f8fafc;
+}
+
+.team .section-title{
+    text-align:center;
+    font-size:42px;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.team .section-subtitle{
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+    color:#64748b;
+    line-height:1.8;
+    margin-bottom:60px;
+}
+
+.team-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.team-card{
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s ease;
+    border-top:4px solid transparent;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+    border-top:4px solid #38bdf8;
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.team-card h3{
+    color:#0f172a;
+    margin-bottom:8px;
+}
+
+.team-card span{
+    color:#38bdf8;
+    font-weight:600;
+    display:block;
+    margin-bottom:20px;
+}
+
+.team-card p{
+    color:#475569;
+    line-height:1.8;
+}
+
+.featured{
+    border-top:4px solid #38bdf8;
+}
+
 /* ===========================
    Why Choose Us
 =========================== */
